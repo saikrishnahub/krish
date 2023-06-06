@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+    <form action="">
+        <div class="container">
+        <h1>REGISTER</h1>
+        <P>please fill in this form to REGISTER</P>
+    </hr>
+
+    <label for="fn"><b>FIRST NAME</b></label> 
+    <input type="text" placeholder="first name" name="fn" id='fn' required/>
+
+    <label for="ln" ><b>LAST NAME</b></label>
+    <input type="text" placeholder="last name" name="ln" id="ln" required/>
+
+    <label for="number"><b>PHONE NUMBER</b></label>
+    <input type="number" placeholder="Enter number" name="Phone number" id="Phone number"required/>
+    
+
+    <label for="gml"><b>GMAIL</b></label>
+    <input type="text" placeholder=" Enter gmail" name="gmail" id="gmail"required/>
+
+
+    <label for="psw"><b>PASSWORD</b></label>
+    <input type="password" placeholder="Enter password" name='pws' required/>
+    <i class="far fa-eye" id="toggle password" style="margin-left: -30px; cursor: pointer;"></i>
+
+    <label for="cpsw"><b> COMFORM PASSWORD</b></label>
+    <input type="password" placeholder="Enter conform password" name='pws' required/>
+
+</hr>
+
+<P>I Accept Terms of Use</P>
+<input type="checkbox" ><br><br>
+<button class='registerbtn' type="submit"><b>Register</b></button><br><br>
+<a href="log in page.html" style="background-color:antiquewhite; color:#009FBD; text-align:center; text-transform:capitalize;font: size 22px;px;"> i have an already an account</a>
+
+
+
+    </form>
+</div> 
+</body>
+</html>
+ 
